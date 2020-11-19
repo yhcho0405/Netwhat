@@ -9,11 +9,14 @@
 - 16진수 4개를 묶어 8개를 쓰고 ':' 로 구분 (4 * 4 * 8 = 128)
 
 
-
-
-
 ## What is a Netmask
+- 네트워크 주소 부분의 비트를 1로 치환한 것.
+- ip주소와 넷마스크를 AND연산 시 네트워크 주소를 얻는다.
+
 ## What is the subnet of an IP with Netmask
+- 서브넷은 부분망이라는 뜻으로 ip를 사용하는 장치 수에 따라 효율적으로 사용할 수 있도록 고안됐다.
+- 이 서브넷을 만들기 위해 서브넷 마스크를 사용한다.
+
 ## What is the broadcast address of a subnet
 ## What are the different ways to represent an ip address with the Netmask
 ## What are the differences between public and private IPs
