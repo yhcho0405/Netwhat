@@ -18,7 +18,11 @@
 - 이 서브넷을 만들기 위해 서브넷 마스크를 사용한다.
 
 ## What is the broadcast address of a subnet
-## What are the different ways to represent an ip address with the Netmask
+- 브로드캐스트 주소는 해당 서브넷의 마지막 주소로 볼 수 있다.
+- 네트워크 주소에서 서브넷 마스크의 0부분의 값을 모두 1로 바꾸면 얻을 수 있다.
+
+## ~What are the different ways to represent an ip address with the Netmask~
+
 ## What are the differences between public and private IPs
 ## What is a class of IP addresses
 ## What is TCP
