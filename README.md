@@ -11,10 +11,10 @@
 
 ## What is a Netmask
 - 네트워크 주소 부분의 비트를 1로 치환한 것.
-- ip주소와 넷마스크를 AND연산 시 네트워크 주소를 얻는다.
+- IP주소와 넷마스크를 AND연산 시 네트워크 주소를 얻는다.
 
 ## What is the subnet of an IP with Netmask
-- 서브넷은 부분망이라는 뜻으로 ip를 사용하는 장치 수에 따라 효율적으로 사용할 수 있도록 고안됐다.
+- 서브넷은 부분망이라는 뜻으로 IP를 사용하는 장치 수에 따라 효율적으로 사용할 수 있도록 고안됐다.
 - 이 서브넷을 만들기 위해 서브넷 마스크를 사용한다.
 
 ## What is the broadcast address of a subnet
@@ -24,7 +24,31 @@
 ## ~What are the different ways to represent an ip address with the Netmask~
 
 ## What are the differences between public and private IPs
+
+### public IP
+- 공인 IP는 전세계에서 유일한 IP주소를 갖는다.
+- 외부에 공개되어 있기 때문에 인터넷상의 다른 pc에서 접근이 가능하다.
+- ISP가 할당한다.
+
+### private IP
+- 사설 IP는 특정 집단 내부에서 사용할 목적의 주소.
+- IPv4의 주소 부족으로 서브넷팅된 IP로 라우터에 의해 할당됨.
+- 주소 대역
+  - Class A : 10.0.0.0 ~ 10.255.255.255
+  - Class B : 172.16.0.0 ~ 172.31.255.255
+  - Class C : 192.168.0.0 ~ 192.168.255.255
+
 ## What is a class of IP addresses
+- A Class : 0 ~ 127 (0.0.0.0 ~ 127.255.255.255)
+  - 인데 0.X.X.X 와 127.X.X.X(루프백)는 제외해야 한다.
+  - 첫번째 옥텟까지 네트워크주소 (서브넷 마스크가 255.0.0.0)
+- B Class : 128 ~ 191 (128.0.0.0 ~ 191.255.255.255)
+  - 서브넷 마스크 = 255.255.0.0
+- C Class : 192 ~ 223 (192.0.0.0 ~ 223.255.255.255)
+  - 서브넷 마스크 = 255.255.255.0
+- D Class : 224 ~ 239 (224.0.0.0 ~ 239.255.255.255)
+- E Class : 240 ~ 255 (240.0.0.0. ~ 255.255.255.255)
+
 ## What is TCP
 ## What is UDP
 ## What are the network layers
