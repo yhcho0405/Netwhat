@@ -50,9 +50,24 @@
 - E Class : 240 ~ 255 (240.0.0.0. ~ 255.255.255.255)
 
 ## What is TCP
+- 연결형 서비스를 지원하는 프로토콜로 패킷을 추적하고 관리한다.
+- 흐름과 혼잡을 제어하고 연결을 보장하므로 높은 신뢰성을 가지지만 UDP보다 속도가 느리다.
+- 가상 회선 방식을 사용, 3-way handshaking 통해 연결 설정, 4-way handshaking 통해 해제
+
 ## What is UDP
+- 비연결형 서비스로 데이터그램 단위로 처리한다.
+- 정보를 보내거나 받는다는 신호를 처리하지 않으며 최소한의 오류만 검출하므로 신뢰성이 낮은 대신 TCP보다 속도가 빠르다.
+- 스트리밍같이 신뢰성보다 연속성이 중요한 서비스에서 사용됨.
+
 ## What are the network layers
+- 네트워크 통신이 일어나는 과정을 계층화 한것.
+- 계층화를 통해 특정한 계층에 문제가 생기면 유지보수가 용이하다.
+- 또 각각의 계층이 표준화되어 효율성을 높일 수 있다.
+
 ## What is the OSI model
+- OSI(Open Systems Interconnection Reference Model)는 국제표준화기구에서 개발한 모델로, 컴퓨터 네트워크 프로토콜 디자인과 통신을 계층으로 나누어 설명한 것이다.
+- 각 계층은 상, 하위 계층과 정보를 주고 받아 역할을 수행한다.
+
 ## What is a DHCP server and the DHCP protocol
 ## What is a DNS server and the DNS protocol
 ## What are the rules to make 2 devices communicate using IP addresses
