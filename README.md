@@ -12,23 +12,29 @@
 ## What is a Netmask
 - 네트워크 주소 부분의 비트를 1로 치환한 것.
 - IP주소와 넷마스크를 AND연산 시 네트워크 주소를 얻는다.
+### Network Address
+- 해당 네트워크의 첫번째 IP주소
+
 
 ## What is the subnet of an IP with Netmask
 - 서브넷은 부분망이라는 뜻으로 IP를 사용하는 장치 수에 따라 효율적으로 사용할 수 있도록 고안됐다.
-- 이 서브넷을 만들기 위해 서브넷 마스크를 사용한다.
+- 서브넷 마스크를 사용해 여러개의 서브넷 네트워크로 분할 하는 것을 subnetting이라고 한다.
+
+
 
 ## What is the broadcast address of a subnet
+### Broadcast Address
+- 네트워크에 있는 클라이언트 모두에게 데이터를 보낼 때 사용.
 - 브로드캐스트 주소는 해당 서브넷의 마지막 주소로 볼 수 있다.
 - 네트워크 주소에서 서브넷 마스크의 0부분의 값을 모두 1로 바꾸면 얻을 수 있다.
 
 ## ~What are the different ways to represent an ip address with the Netmask~
 
 ## What are the differences between public and private IPs
-
 ### public IP
 - 공인 IP는 전세계에서 유일한 IP주소를 갖는다.
 - 외부에 공개되어 있기 때문에 인터넷상의 다른 pc에서 접근이 가능하다.
-- ISP가 할당한다.
+- ISP에 의해 할당한다.
 
 ### private IP
 - 사설 IP는 특정 집단 내부에서 사용할 목적의 주소.
