@@ -1,3 +1,12 @@
+## What is Network
+- 노드들이 자원을 공유할 수 있게 하는 디지털 전기통신망.
+- 그 규모에 따라 구분할 수 있다.
+  - PAN (Personal)
+  - LAN (Local)
+  - MAN (Metropolitan)
+  - WAN (Wide)
+
+
 ## What is an IP address
 ### IPv4
 - 32비트 주소체계
@@ -7,6 +16,8 @@
 ### IPv6
 - IPv4로는 모든 단말에 주소를 부여하기 부족해져 128비트로 길이를 늘림.
 - 16진수 4개를 묶어 8개를 쓰고 ':' 로 구분 (4 * 4 * 8 = 128)
+### IP Address Class
+- ip address는 클래스라는 개념이 존재한다.
 
 
 ## What is a Netmask
