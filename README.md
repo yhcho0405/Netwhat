@@ -38,8 +38,6 @@
 - 브로드캐스트 주소는 해당 서브넷의 마지막 주소로 볼 수 있다.
 - 네트워크 주소에서 서브넷 마스크의 0부분의 값을 모두 1로 바꾸면 얻을 수 있다.
 
-## ~What are the different ways to represent an ip address with the Netmask~
-
 ## What are the differences between public and private IPs
 ### public IP
 - 공인 IP는 전세계에서 유일한 IP주소를 갖는다.
@@ -98,6 +96,7 @@
 ## What is a DNS server and the DNS protocol
 - 도메인 네임과 IP address의 대응 관계를 데이터베이스로 구축해 사용하는 인터넷 프로토콜.
 - DNS를 운영하는 서버를 name server라고 한다.
+
 
 ## What are the rules to make 2 devices communicate using IP addresses
 ## How does routing work with IP
