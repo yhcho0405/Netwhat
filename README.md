@@ -91,7 +91,14 @@
 
 
 ## What is a DHCP server and the DHCP protocol
+- 단말에게 IP address를 일정 시간동안 lease, 할당해주는 프로토콜.
+- DHCP서버는 클라이언트에게 IP address를 할당해준다.
+
+
 ## What is a DNS server and the DNS protocol
+- 도메인 네임과 IP address의 대응 관계를 데이터베이스로 구축해 사용하는 인터넷 프로토콜.
+- DNS를 운영하는 서버를 name server라고 한다.
+
 ## What are the rules to make 2 devices communicate using IP addresses
 ## How does routing work with IP
 ## What is a default gateway for routing
